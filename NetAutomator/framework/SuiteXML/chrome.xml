@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation_GUI_Suite">
+<parameter name="suitename" value="testsuite/TestCase.conf"></parameter>
+<parameter name="browsername" value="chrome"></parameter>
+  <test thread-count="5" name="Netstorm_Smoke">
+    <classes>
+      <class name="com.automation.TestSuiteRunner.SuiteRunner"/>
+    </classes>
+  </test> <!-- Netstorm_Smoke -->
+</suite> <!-- Automation_GUI_Suite -->

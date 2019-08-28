@@ -1,0 +1,10 @@
+19/01/08 14:15:57 INFO TestCaseDataReader: Going to read data from LoginTestCase - testcaseStep.xlsx fle
+19/01/08 14:15:58 INFO ActionsMethods: browser name : headless
+19/01/08 14:16:03 INFO Driver: headless driver initiated
+19/01/08 14:16:03 INFO ActionsMethods: driver : ChromeDriver: chrome on XP (e240754f5533c27f33d8124d0d53723a)
+19/01/08 14:16:03 INFO TestCaseDataReader: Size fo row : 1
+19/01/08 14:16:03 INFO TestCaseDataReader: Action need to perform : browse
+19/01/08 14:16:03 INFO ActionsMethods: https://www.google.com going to open
+19/01/08 14:16:07 INFO ActionsMethods: Screen Capture reports\08_01_2019_02_15\images\LoginTestCase/Demo_001.png
+19/01/08 14:16:08 INFO TestCaseDriveClass: LoginTestCase executed sucessfully
+

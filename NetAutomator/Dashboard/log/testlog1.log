@@ -1,0 +1,628 @@
+2019-08-27 18:53:16,833 [main] INFO TestCaseDataReader - Going to read data from AddAlertRule - testcaseStep.xlsx fle
+2019-08-27 18:53:20,144 [main] INFO TestCaseDataReader - Number of sheet/workbook : 5
+2019-08-27 18:53:20,145 [main] INFO TestCaseDataReader - SheetName : AddAlertRule
+2019-08-27 18:53:20,156 [main] INFO ActionsMethods - browser name : chrome
+2019-08-27 18:53:30,008 [main] INFO Driver - Chrome driver initialized
+2019-08-27 18:53:30,091 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (eca1bb1d98338ca930f0371c18fb9a0e)
+2019-08-27 18:53:30,095 [main] INFO TestCaseDataReader - Size of row : 24
+2019-08-27 18:53:30,146 [main] INFO TestCaseDataReader - Actions need to perform : browse
+2019-08-27 18:53:30,207 [main] INFO genericMethods - Going to browse url - TestCase_001
+2019-08-27 18:53:30,211 [main] INFO genericMethods - Going to browse url - Open machine
+2019-08-27 18:53:30,276 [main] INFO genericMethods - Going to browse url - https://10.10.30.4/ProductUI
+2019-08-27 18:53:30,276 [main] INFO ActionsMethods - https://10.10.30.4/ProductUI going to open
+2019-08-27 18:53:36,491 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_06_53/images/AddAlertRule//TestCase_001.png
+2019-08-27 18:53:36,548 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 18:58:37,740 [main] INFO TestCaseDataReader - Going to read data from AddAlertRule - testcaseStep.xlsx fle
+2019-08-27 18:58:38,566 [main] INFO TestCaseDataReader - Number of sheet/workbook : 5
+2019-08-27 18:58:38,567 [main] INFO TestCaseDataReader - SheetName : AddAlertRule
+2019-08-27 18:58:38,571 [main] INFO ActionsMethods - browser name : chrome
+2019-08-27 18:58:43,871 [main] INFO Driver - Chrome driver initialized
+2019-08-27 18:58:43,877 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (b6ad501e4750196f61eaf8999a031be2)
+2019-08-27 18:58:43,877 [main] INFO TestCaseDataReader - Size of row : 24
+2019-08-27 18:58:43,907 [main] INFO TestCaseDataReader - Actions need to perform : browse
+2019-08-27 18:58:43,912 [main] INFO genericMethods - Going to browse url - AddAlertRule_001
+2019-08-27 18:58:43,916 [main] INFO genericMethods - Going to browse url - Open machine
+2019-08-27 18:58:43,919 [main] INFO genericMethods - Going to browse url - https://10.10.30.71/ProductUI
+2019-08-27 18:58:43,920 [main] INFO ActionsMethods - https://10.10.30.71/ProductUI going to open
+2019-08-27 18:58:50,232 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_06_58/images/AddAlertRule//AddAlertRule_001.png
+2019-08-27 18:58:50,243 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:00:54,362 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_06_58/images/AddAlertRule//AddAlertRule_002.png
+2019-08-27 19:00:54,366 [main] ERROR ActionsMethods - Error : 
+org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for element to be clickable: By.name: name
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51576}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir1404_1778}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6ad501e4750196f61eaf8999a031be2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.automation.genrics.ActionsMethods.sendKeys(ActionsMethods.java:180)
+	at com.automation.genrics.genericMethods.defMthd(genericMethods.java:93)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:104)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:51)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:34)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"name"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51576}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir1404_1778}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6ad501e4750196f61eaf8999a031be2
+*** Element info: {Using=name, value=name}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:897)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 29 more
+2019-08-27 19:00:54,455 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:00:55,653 [main] INFO ActionsMethods - sucessfully SendKeys on password with value @dmin
+2019-08-27 19:00:59,035 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_06_58/images/AddAlertRule//AddAlertRule_003.png
+2019-08-27 19:00:59,036 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:03:03,133 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_06_58/images/AddAlertRule//AddAlertRule_004.png
+2019-08-27 19:03:03,134 [main] ERROR ActionsMethods - Error : 
+org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for element to be clickable: By.xpath: //button
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51576}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir1404_1778}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6ad501e4750196f61eaf8999a031be2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.automation.genrics.ActionsMethods.click(ActionsMethods.java:103)
+	at com.automation.genrics.genericMethods.defMthd(genericMethods.java:71)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:104)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:51)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:34)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51576}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir1404_1778}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6ad501e4750196f61eaf8999a031be2
+*** Element info: {Using=xpath, value=//button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:897)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 29 more
+2019-08-27 19:03:03,155 [main] INFO TestCaseDataReader - Actions need to perform : alertaccept
+2019-08-27 19:03:03,155 [main] INFO genericMethods - Going to accept alert on Current page
+2019-08-27 19:04:03,626 [main] ERROR ActionsMethods - Alert not Present
+2019-08-27 19:04:07,030 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_06_58/images/AddAlertRule//AddAlertRule_005.png
+2019-08-27 19:04:07,031 [main] INFO TestCaseDataReader - Actions need to perform : sleep
+2019-08-27 19:04:07,031 [main] INFO genericMethods - Test execution stopped for 10000 milliseconds
+2019-08-27 19:04:17,032 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:05:01,908 [main] INFO TestCaseDataReader - Going to read data from AddAlertRule - testcaseStep.xlsx fle
+2019-08-27 19:05:02,819 [main] INFO TestCaseDataReader - Number of sheet/workbook : 5
+2019-08-27 19:05:02,824 [main] INFO TestCaseDataReader - SheetName : AddAlertRule
+2019-08-27 19:05:02,832 [main] INFO ActionsMethods - browser name : chrome
+2019-08-27 19:05:07,981 [main] INFO Driver - Chrome driver initialized
+2019-08-27 19:05:07,986 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (01fb829a91e0a91ef14eaa3cb8f59baa)
+2019-08-27 19:05:07,986 [main] INFO TestCaseDataReader - Size of row : 24
+2019-08-27 19:05:07,994 [main] INFO TestCaseDataReader - Actions need to perform : browse
+2019-08-27 19:05:07,994 [main] INFO genericMethods - Going to browse url - AddAlertRule_001
+2019-08-27 19:05:07,994 [main] INFO genericMethods - Going to browse url - Open machine
+2019-08-27 19:05:07,999 [main] INFO genericMethods - Going to browse url - https://10.10.30.71/ProductUI
+2019-08-27 19:05:08,000 [main] INFO ActionsMethods - https://10.10.30.71/ProductUI going to open
+2019-08-27 19:05:14,776 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_05/images/AddAlertRule//AddAlertRule_001.png
+2019-08-27 19:05:14,788 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:05:15,203 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='username'] with value pritam.mohapatra@cavisson.com
+2019-08-27 19:05:18,523 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_05/images/AddAlertRule//AddAlertRule_002.png
+2019-08-27 19:05:18,526 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:05:19,871 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='password'] with value C0mpass!
+2019-08-27 19:05:23,388 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_05/images/AddAlertRule//AddAlertRule_003.png
+2019-08-27 19:05:23,389 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:06:57,148 [main] INFO TestCaseDataReader - Going to read data from AddAlertRule - testcaseStep.xlsx fle
+2019-08-27 19:06:58,036 [main] INFO TestCaseDataReader - Number of sheet/workbook : 5
+2019-08-27 19:06:58,037 [main] INFO TestCaseDataReader - SheetName : AddAlertRule
+2019-08-27 19:06:58,044 [main] INFO ActionsMethods - browser name : chrome
+2019-08-27 19:07:03,202 [main] INFO Driver - Chrome driver initialized
+2019-08-27 19:07:03,208 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (786a621156c02663616f4e9ff4f72337)
+2019-08-27 19:07:03,208 [main] INFO TestCaseDataReader - Size of row : 24
+2019-08-27 19:07:03,241 [main] INFO TestCaseDataReader - Actions need to perform : browse
+2019-08-27 19:07:03,245 [main] INFO genericMethods - Going to browse url - AddAlertRule_001
+2019-08-27 19:07:03,246 [main] INFO genericMethods - Going to browse url - Open machine
+2019-08-27 19:07:03,253 [main] INFO genericMethods - Going to browse url - https://10.10.30.71/ProductUI
+2019-08-27 19:07:03,256 [main] INFO ActionsMethods - https://10.10.30.71/ProductUI going to open
+2019-08-27 19:07:09,366 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_001.png
+2019-08-27 19:07:09,375 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:07:09,695 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='username'] with value pritam.mohapatra@cavisson.com
+2019-08-27 19:07:13,079 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_002.png
+2019-08-27 19:07:13,081 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:07:14,478 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='password'] with value C0mpass!
+2019-08-27 19:07:17,823 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_003.png
+2019-08-27 19:07:17,824 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:07:18,423 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //input[@value='Sign In']
+2019-08-27 19:07:28,539 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_004.png
+2019-08-27 19:07:28,771 [main] INFO TestCaseDataReader - Actions need to perform : alertaccept
+2019-08-27 19:07:28,772 [main] INFO genericMethods - Going to accept alert on Current page
+2019-08-27 19:08:29,029 [main] ERROR ActionsMethods - Alert not Present
+2019-08-27 19:08:32,934 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_005.png
+2019-08-27 19:08:32,934 [main] INFO TestCaseDataReader - Actions need to perform : sleep
+2019-08-27 19:08:32,938 [main] INFO genericMethods - Test execution stopped for 10000 milliseconds
+2019-08-27 19:08:42,944 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:08:43,366 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //div[text()=' Alerts']
+2019-08-27 19:08:47,068 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_007.png
+2019-08-27 19:08:47,080 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:08:47,342 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //span[text()='Rules']
+2019-08-27 19:08:50,900 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_008.png
+2019-08-27 19:08:50,915 [main] INFO TestCaseDataReader - Actions need to perform : sleep
+2019-08-27 19:08:50,916 [main] INFO genericMethods - Test execution stopped for 10000 milliseconds
+2019-08-27 19:09:00,923 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:01,503 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //span[text()='Add']
+2019-08-27 19:09:05,064 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_010.png
+2019-08-27 19:09:05,081 [main] INFO TestCaseDataReader - Actions need to perform : userdefined:randomnum
+2019-08-27 19:09:05,081 [main] INFO customMethods - Actions need to perform : randomnum
+2019-08-27 19:09:06,858 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@placeholder='Rule Name'] with value D6LNAB2ACX3Y891NCW
+2019-08-27 19:09:10,379 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_011_Alert Rule for Automation.png
+2019-08-27 19:09:10,380 [main] INFO customMethods - Going to send keys D6LNAB2ACX3Y891NCW on page
+2019-08-27 19:09:10,381 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:09:10,783 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@placeholder='minutes'] with value 6
+2019-08-27 19:09:14,232 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_012.png
+2019-08-27 19:09:14,233 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:14,701 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //p-radiobutton[@name='tierIndividualLevel' and @value=1]
+2019-08-27 19:09:18,215 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_013.png
+2019-08-27 19:09:18,230 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:09:19,139 [main] INFO ActionsMethods - sucessfully SendKeys on //div[@id='div_Critical']//input[@title='Condition_1'] with value CPU > 80%
+2019-08-27 19:09:22,762 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_014.png
+2019-08-27 19:09:22,763 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:23,230 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //p-dropdown[@placeholder='--Select Group Name--']//div//span
+2019-08-27 19:09:26,768 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_015.png
+2019-08-27 19:09:26,828 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:27,146 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //div[@title='SysStats Linux Extended']
+2019-08-27 19:09:30,668 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_016.png
+2019-08-27 19:09:30,686 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:31,076 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //div[@id='div_Critical']//p-dropdown[@placeholder='--Select Metric Name--']/div/div[3]/span
+2019-08-27 19:09:34,733 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_017.png
+2019-08-27 19:09:34,753 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:35,107 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //div[text()='CPU Utilization (Pct)']
+2019-08-27 19:09:38,642 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_018.png
+2019-08-27 19:09:38,655 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:39,049 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //span[@title='Select Indices']
+2019-08-27 19:09:42,610 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_019.png
+2019-08-27 19:09:42,626 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:42,924 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //p-radiobutton[@label='All']//div/span
+2019-08-27 19:09:46,380 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_020.png
+2019-08-27 19:09:46,395 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:46,688 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //button[@label='Apply']
+2019-08-27 19:09:50,305 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_021.png
+2019-08-27 19:09:50,326 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:09:50,636 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //button[@label='Save']
+2019-08-27 19:09:54,280 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//AddAlertRule_022.png
+2019-08-27 19:09:54,293 [main] INFO TestCaseDataReader - Actions need to perform : verifybytext
+2019-08-27 19:09:54,294 [main] INFO TestCaseDataReader - Actions need to perform : closebrowser
+2019-08-27 19:09:54,295 [main] INFO ActionsMethods - ChromeDriver: chrome on XP (786a621156c02663616f4e9ff4f72337) going to close browser
+2019-08-27 19:09:54,464 [main] INFO TestCaseDataReader - SheetName : AddAlertRule
+2019-08-27 19:09:55,097 [main] INFO TestCaseDataReader - SheetName : EditAlertRule
+2019-08-27 19:09:55,098 [main] INFO ActionsMethods - browser name : chrome
+2019-08-27 19:09:59,095 [main] INFO Driver - Chrome driver initialized
+2019-08-27 19:09:59,098 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (33e2c2a6d344401abe7b5f373ab69161)
+2019-08-27 19:09:59,098 [main] INFO TestCaseDataReader - Size of row : 16
+2019-08-27 19:09:59,099 [main] INFO TestCaseDataReader - Actions need to perform : browse
+2019-08-27 19:09:59,099 [main] INFO genericMethods - Going to browse url - EditAlertRule_001
+2019-08-27 19:09:59,100 [main] INFO genericMethods - Going to browse url - Open machine
+2019-08-27 19:09:59,100 [main] INFO genericMethods - Going to browse url - https://10.10.30.71/ProductUI
+2019-08-27 19:09:59,101 [main] INFO ActionsMethods - https://10.10.30.71/ProductUI going to open
+2019-08-27 19:10:05,145 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_001.png
+2019-08-27 19:10:05,146 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:10:05,416 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='username'] with value pritam.mohapatra@cavisson.com
+2019-08-27 19:10:08,745 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_002.png
+2019-08-27 19:10:08,746 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:10:10,120 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='password'] with value C0mpass!
+2019-08-27 19:10:13,497 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_003.png
+2019-08-27 19:10:13,497 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:10:14,104 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //input[@value='Sign In']
+2019-08-27 19:10:25,970 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_004.png
+2019-08-27 19:10:26,203 [main] INFO TestCaseDataReader - Actions need to perform : alertaccept
+2019-08-27 19:10:26,203 [main] INFO genericMethods - Going to accept alert on Current page
+2019-08-27 19:11:26,275 [main] ERROR ActionsMethods - Alert not Present
+2019-08-27 19:11:29,828 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_005.png
+2019-08-27 19:11:29,829 [main] INFO TestCaseDataReader - Actions need to perform : sleep
+2019-08-27 19:11:29,829 [main] INFO genericMethods - Test execution stopped for 10000 milliseconds
+2019-08-27 19:11:39,834 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:11:40,334 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //div[text()=' Alerts']
+2019-08-27 19:11:43,854 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_007.png
+2019-08-27 19:11:43,864 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:11:44,131 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //span[text()='Rules']
+2019-08-27 19:11:47,576 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_008.png
+2019-08-27 19:11:47,587 [main] INFO TestCaseDataReader - Actions need to perform : sleep
+2019-08-27 19:11:47,587 [main] INFO genericMethods - Test execution stopped for 10000 milliseconds
+2019-08-27 19:11:57,588 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:11:58,550 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@placeholder='Global Filter'] with value Alert Rule for Automation
+2019-08-27 19:12:02,013 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_010.png
+2019-08-27 19:12:02,014 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:14:06,142 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_06/images/AddAlertRule//EditAlertRule_011.png
+2019-08-27 19:14:06,145 [main] ERROR ActionsMethods - Error : 
+org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for element to be clickable: By.xpath: //td[2]/p-dtcheckbox/div/div[2]
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52294}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir9004_24238}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33e2c2a6d344401abe7b5f373ab69161
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.automation.genrics.ActionsMethods.click(ActionsMethods.java:103)
+	at com.automation.genrics.genericMethods.defMthd(genericMethods.java:71)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:104)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:51)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:34)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[2]/p-dtcheckbox/div/div[2]"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52294}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir9004_24238}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33e2c2a6d344401abe7b5f373ab69161
+*** Element info: {Using=xpath, value=//td[2]/p-dtcheckbox/div/div[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:897)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 29 more
+2019-08-27 19:14:06,265 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:14:06,526 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //span[text()='Edit']
+2019-08-27 19:16:28,925 [main] INFO TestCaseDataReader - Going to read data from AddAlertRule - testcaseStep.xlsx fle
+2019-08-27 19:16:29,751 [main] INFO TestCaseDataReader - Number of sheet/workbook : 5
+2019-08-27 19:16:29,752 [main] INFO TestCaseDataReader - SheetName : AddAlertRule
+2019-08-27 19:16:29,758 [main] INFO ActionsMethods - browser name : chrome
+2019-08-27 19:16:35,358 [main] INFO Driver - Chrome driver initialized
+2019-08-27 19:16:35,359 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (b3013880cf7caee0b56e8928c8146c50)
+2019-08-27 19:16:35,360 [main] INFO TestCaseDataReader - Size of row : 24
+2019-08-27 19:16:35,366 [main] INFO TestCaseDataReader - Actions need to perform : browse
+2019-08-27 19:16:35,366 [main] INFO genericMethods - Going to browse url - AddAlertRule_001
+2019-08-27 19:16:35,370 [main] INFO genericMethods - Going to browse url - Open machine
+2019-08-27 19:16:35,371 [main] INFO genericMethods - Going to browse url - https://10.10.30.71/ProductUI
+2019-08-27 19:16:35,372 [main] INFO ActionsMethods - https://10.10.30.71/ProductUI going to open
+2019-08-27 19:16:41,470 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_001.png
+2019-08-27 19:16:41,482 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:16:41,792 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='username'] with value pritam.mohapatra@cavisson.com
+2019-08-27 19:16:45,218 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_002.png
+2019-08-27 19:16:45,220 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys
+2019-08-27 19:16:46,654 [main] INFO ActionsMethods - sucessfully SendKeys on //input[@name='password'] with value C0mpass!
+2019-08-27 19:16:50,030 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_003.png
+2019-08-27 19:16:50,031 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:16:50,156 [main] INFO ActionsMethods - sucessfully click on ByXpath with value //input[@value='Sign In']
+2019-08-27 19:16:53,577 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_004.png
+2019-08-27 19:16:53,590 [main] INFO TestCaseDataReader - Actions need to perform : alertaccept
+2019-08-27 19:16:53,590 [main] INFO genericMethods - Going to accept alert on Current page
+2019-08-27 19:17:53,620 [main] ERROR ActionsMethods - Alert not Present
+2019-08-27 19:17:57,017 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_005.png
+2019-08-27 19:17:57,017 [main] INFO TestCaseDataReader - Actions need to perform : sleep
+2019-08-27 19:17:57,021 [main] INFO genericMethods - Test execution stopped for 10000 milliseconds
+2019-08-27 19:18:07,026 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:20:11,104 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_007.png
+2019-08-27 19:20:11,105 [main] ERROR ActionsMethods - Error : 
+org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for element to be clickable: By.xpath: //div[text()=' Alerts']
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir14632_20061}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3013880cf7caee0b56e8928c8146c50
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.automation.genrics.ActionsMethods.click(ActionsMethods.java:103)
+	at com.automation.genrics.genericMethods.defMthd(genericMethods.java:71)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:104)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:51)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:34)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()=' Alerts']"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir14632_20061}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3013880cf7caee0b56e8928c8146c50
+*** Element info: {Using=xpath, value=//div[text()=' Alerts']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:897)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 29 more
+2019-08-27 19:20:11,203 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:22:15,209 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_008.png
+2019-08-27 19:22:15,209 [main] ERROR ActionsMethods - Error : 
+org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for element to be clickable: By.xpath: //span[text()='Rules']
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir14632_20061}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3013880cf7caee0b56e8928c8146c50
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.automation.genrics.ActionsMethods.click(ActionsMethods.java:103)
+	at com.automation.genrics.genericMethods.defMthd(genericMethods.java:71)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:104)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:51)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:34)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Rules']"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir14632_20061}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3013880cf7caee0b56e8928c8146c50
+*** Element info: {Using=xpath, value=//span[text()='Rules']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:897)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 29 more
+2019-08-27 19:22:15,281 [main] INFO TestCaseDataReader - Actions need to perform : sleep
+2019-08-27 19:22:15,283 [main] INFO genericMethods - Test execution stopped for 10000 milliseconds
+2019-08-27 19:22:25,290 [main] INFO TestCaseDataReader - Actions need to perform : click
+2019-08-27 19:24:29,389 [main] INFO ActionsMethods - Screen Capture reports/27_08_2019_07_16/images/AddAlertRule//AddAlertRule_010.png
+2019-08-27 19:24:29,390 [main] ERROR ActionsMethods - Error : 
+org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for element to be clickable: By.xpath: //span[text()='Add']
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir14632_20061}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3013880cf7caee0b56e8928c8146c50
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.automation.genrics.ActionsMethods.click(ActionsMethods.java:103)
+	at com.automation.genrics.genericMethods.defMthd(genericMethods.java:71)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:104)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:51)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:34)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Add']"}
+  (Session info: chrome=76.0.3809.132)
+  (Driver info: chromedriver=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'LAPTOP-Q32RROR1', ip: '172.24.2.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52673}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir=C:\Users\pritam\AppData\Local\Temp\scoped_dir14632_20061}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=76.0.3809.132, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3013880cf7caee0b56e8928c8146c50
+*** Element info: {Using=xpath, value=//span[text()='Add']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:897)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 29 more
+2019-08-27 19:24:31,219 [main] INFO TestCaseDataReader - Actions need to perform : sendkeys

@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="chrome" name="Automation Test Suite for GUI">
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="lib.dir" value="lib"/>
+	<property name="log.dir" value="log"/>
+    <property name="reports.dir" value="${basedir}/reports"/>
+    <property name="report.dir" value="${basedir}/log/test-output"/>
+	<property name="mail.dir" value="${basedir}/mail"/>
+    
+	<property name="release" value="4113"/>     <!-- pass value 4113 , 4112_0 , 4112_1 , 4113 -->
+	<property name="version" value="8"/>
+	
+    <path id="classpath">
+        <pathelement location="${classes.dir}"/>
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+<taskdef classname="org.testng.TestNGAntTask" classpathref="classpath" name="testng"/>
+
+    
+    <target depends="clean" description="Create project workbench" name="mkdir">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${log.dir}"/>
+        <mkdir dir="${classes.dir}"/>
+        <mkdir dir="${lib.dir}"/>
+        <mkdir dir="${reports.dir}"/>
+		
+    </target>
+
+    <target description="Clean workspace" name="clean">
+        <delete dir="${classes.dir}"/>
+        <delete dir="${build.dir}"/>
+		<delete dir="${log.dir}"/>
+    </target>
+
+    <target depends="mkdir" description="Compile the source files" name="compile"> 
+        <javac classpathref="classpath" debug="on" destdir="${classes.dir}" includeantruntime="false" srcdir="${src.dir}"/>
+    </target>
+
+
+    <target depends="compile" name="chrome">
+        <echo message="Going to run testsuite"/>
+        <mkdir dir="${report.dir}"/>
+        <testng classpathref="classpath" outputdir="${report.dir}" useDefaultListeners="true">
+            <xmlfileset dir="${basedir}/SuiteXML" includes="chrome.xml"/>
+        </testng>
+    </target>
+	
+	 <target depends="compile" name="firefox">
+        <echo message="Going to run testsuite"/>
+        <mkdir dir="${report.dir}"/>
+        <testng classpathref="classpath" outputdir="${report.dir}" useDefaultListeners="true">
+            <xmlfileset dir="${basedir}/SuiteXML" includes="firefox.xml"/>
+        </testng>
+    </target>
+
+    <target depends="compile" name="headless">
+        <echo message="Going to run testsuite"/>
+        <mkdir dir="${report.dir}"/>
+        <testng classpathref="classpath" outputdir="${report.dir}" useDefaultListeners="true">
+            <xmlfileset dir="${basedir}/SuiteXML" includes="headless.xml"/>
+        </testng>
+    </target>
+	
+
+	<target description="Going to send mail" name="send-mail">
+    <echo message="Loading properties from ${mail.dir}/mail.properties"/>
+    <property file="${mail.dir}/mail.properties"/>
+    <mail cclist="${mail.cc.list}" files="${basedir}/log/build_log.log" mailhost="${mail.host}" mailport="${mail.port}" messageMimeType="text/html" messagefile="${basedir}/log/error_index.html" password="${mail.password}" subject="Dot-Net MSI Build Status of Version B${version} from Branch ${release}" tolist="${mail.to.list}" user="${mail.user}">
+      <from address="automation@cavisson.com"/>
+    </mail>
+    </target>
+	
+</project>

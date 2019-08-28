@@ -1,0 +1,461 @@
+2019-01-07 20:13:56,862 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-07 20:13:58,098 [main] INFO ActionsMethods - browser name : chrome
+2019-01-07 20:14:02,929 [main] INFO Driver - chrome driver initialized
+2019-01-07 20:14:02,929 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (075534e5b2c1e6b2ba3ed0b1c9db1c77)
+2019-01-07 20:14:02,929 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-07 20:14:02,944 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-07 20:14:02,944 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-07 20:14:06,153 [main] INFO ActionsMethods - Screen Capture reports\07_01_2019_08_13\images\LoginTestCase/Demo_001.png
+2019-01-07 20:14:06,964 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 11:52:43,366 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 11:52:45,516 [main] INFO ActionsMethods - browser name : chrome
+2019-01-08 11:53:35,178 [main] INFO Driver - chrome driver initialized
+2019-01-08 11:53:35,178 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (8c353d932faaec0647719160bc72284e)
+2019-01-08 11:53:35,193 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 11:53:35,193 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 11:53:35,193 [main] INFO ActionsMethods - ChromeDriver: chrome on XP (8c353d932faaec0647719160bc72284e) going to quit browser
+2019-01-08 11:53:38,486 [main] ERROR TestCaseDataReader - Error in execution of LoginTestCase testcase , Please open testng report 
+2019-01-08 11:53:38,486 [main] ERROR TestCaseDataReader - Error are :  
+java.lang.NullPointerException
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:90)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 11:53:38,486 [main] ERROR TestCaseDriveClass - LoginTestCase execution failed going to generate Error report 
+
+2019-01-08 12:56:43,696 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 12:56:44,623 [main] INFO ActionsMethods - browser name : firefox
+2019-01-08 12:57:36,321 [main] ERROR Driver - Error : org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+16":"icons/lightbulb.svg","32":"icons/lightbulb.svg","48":"icons/lightbulb.svg","96":"icons/lightbulb.svg","128":"icons/lightbulb.svg"},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"location":"app-system-defaults"}
+1546932413090	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{afe837aa-bf23-4747-b176-c5b54a27a29f}","version":"3.0.0","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1544135130337,"updateDate":1544135130337,"applyBackgroundUpdates":1,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":"59.0b5","maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":["webRequest","webRequestBlocking"],"origins":["<all_urls>"]},"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"location":"app-system-defaults"}
+1546932413090	addons.xpi-utils	DEBUG	Updating add-on states
+1546932413092	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1546932413094	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0
+1546932413095	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 3.0.0
+1546932413130	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1546932413130	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1546932413130	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1546932413130	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1546932413130	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1546932413131	addons.manager	DEBUG	Starting provider: GMPProvider
+1546932413133	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1546932413133	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1546932413133	addons.manager	DEBUG	Starting provider: PluginProvider
+1546932413133	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1546932413133	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1546932413169	addons.manager	DEBUG	Completed startup sequence
+1546932424047	addons.repository	DEBUG	No addons.json found.
+[Child 7216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1546932428818	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\kiran.kumar\AppData\Local\Temp\anonymous13893608693909984739webdriver-profile\extensions\webdriver-staging
+1546932428819	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1546932428820	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1546932428820	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1546932428821	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1546932428822	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1546932429715	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'DESKTOP-IL6B35H', ip: '172.24.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: driver.version: FirefoxDriver
+2019-01-08 12:57:36,425 [main] INFO ActionsMethods - driver : null
+2019-01-08 12:57:36,428 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 12:57:36,444 [main] INFO ActionsMethods - null going to quit browser
+2019-01-08 12:57:36,444 [main] ERROR TestCaseDriveClass - Error : 
+2019-01-08 12:58:11,599 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 12:58:12,598 [main] INFO ActionsMethods - browser name : chrome
+2019-01-08 12:58:21,570 [main] INFO Driver - chrome driver initialized
+2019-01-08 12:58:21,570 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (d5b3f874203522212eec4aba1bb8094e)
+2019-01-08 12:58:21,570 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 12:58:21,586 [main] INFO ActionsMethods - ChromeDriver: chrome on XP (d5b3f874203522212eec4aba1bb8094e) going to quit browser
+2019-01-08 12:58:24,035 [main] ERROR TestCaseDataReader - Error in execution of LoginTestCase testcase , Please open testng report 
+2019-01-08 12:58:24,035 [main] ERROR TestCaseDataReader - Error are :  
+java.lang.NullPointerException
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:88)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 12:58:24,035 [main] ERROR TestCaseDriveClass - LoginTestCase execution failed going to generate Error report 
+
+2019-01-08 13:01:32,515 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 13:01:33,608 [main] INFO ActionsMethods - browser name : chrome
+2019-01-08 13:01:41,739 [main] INFO Driver - chrome driver initialized
+2019-01-08 13:01:41,742 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (f7992d740a83f77ad9d10fe93cb262d6)
+2019-01-08 13:01:41,749 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 13:01:41,756 [main] INFO ActionsMethods - ChromeDriver: chrome on XP (f7992d740a83f77ad9d10fe93cb262d6) going to quit browser
+2019-01-08 13:01:44,262 [main] ERROR TestCaseDataReader - Error in execution of LoginTestCase testcase , Please open testng report 
+2019-01-08 13:01:44,262 [main] ERROR TestCaseDataReader - Error are :  
+java.lang.NullPointerException
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:87)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 13:01:44,262 [main] ERROR TestCaseDriveClass - LoginTestCase execution failed going to generate Error report 
+
+2019-01-08 13:15:03,653 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 13:15:04,593 [main] INFO ActionsMethods - browser name : chrome
+2019-01-08 13:15:11,442 [main] INFO Driver - chrome driver initialized
+2019-01-08 13:15:11,445 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (c19302b148773abb25b3a0b52c9bf34e)
+2019-01-08 13:15:11,451 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 13:15:11,461 [main] INFO ActionsMethods - ChromeDriver: chrome on XP (c19302b148773abb25b3a0b52c9bf34e) going to quit browser
+2019-01-08 13:15:13,331 [main] ERROR TestCaseDataReader - Error in execution of LoginTestCase testcase , Please open testng report 
+2019-01-08 13:15:13,331 [main] ERROR TestCaseDataReader - Error are :  
+java.lang.NullPointerException
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:87)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 13:15:13,347 [main] ERROR TestCaseDriveClass - LoginTestCase execution failed going to generate Error report 
+
+2019-01-08 13:18:48,050 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 13:18:49,157 [main] INFO ActionsMethods - browser name : chrome
+2019-01-08 13:18:55,516 [main] INFO Driver - chrome driver initialized
+2019-01-08 13:18:55,518 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (451d505e510180f15f211e4023699340)
+2019-01-08 13:18:55,521 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 13:18:55,521 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 13:18:55,521 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 13:18:58,570 [main] INFO ActionsMethods - Screen Capture reports\08_01_2019_01_18\images\LoginTestCase/Demo_001.png
+2019-01-08 13:19:00,075 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 14:00:15,725 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 14:00:17,697 [main] INFO ActionsMethods - browser name : chrome
+2019-01-08 14:00:30,614 [main] INFO Driver - chrome driver initialized
+2019-01-08 14:00:30,618 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (032df6b92a9a56b4c238d6b1ad9ed646)
+2019-01-08 14:00:30,622 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 14:00:30,622 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 14:00:30,622 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 14:00:34,878 [main] INFO ActionsMethods - Screen Capture reports\08_01_2019_02_00\images\LoginTestCase/Demo_001.png
+2019-01-08 14:00:35,677 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 14:00:51,883 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 14:00:52,785 [main] INFO ActionsMethods - browser name : headless
+2019-01-08 14:00:52,854 [main] ERROR Driver - Error : java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+2019-01-08 14:00:52,854 [main] INFO ActionsMethods - driver : null
+2019-01-08 14:00:52,870 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 14:00:52,870 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 14:00:52,870 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 14:00:52,886 [main] ERROR ActionsMethods - Error in capture screenshot
+2019-01-08 14:00:52,886 [main] ERROR ActionsMethods - Error : 
+java.lang.NullPointerException
+	at com.automation.genrics.ActionsMethods.browse(ActionsMethods.java:63)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:109)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 14:00:53,486 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 14:04:00,662 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 14:04:01,716 [main] INFO ActionsMethods - browser name : headless
+2019-01-08 14:04:06,841 [main] ERROR Driver - Error : org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\kiran.kumar\Desktop\cavisson\Build Automation\NetAutomator\NetStorm/../framework/src/com/automation/Driver/chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.84 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'DESKTOP-IL6B35H', ip: '172.24.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-01-08 14:04:06,841 [main] INFO ActionsMethods - driver : null
+2019-01-08 14:04:06,857 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 14:04:06,863 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 14:04:06,863 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 14:04:06,879 [main] ERROR ActionsMethods - Error in capture screenshot
+2019-01-08 14:04:06,879 [main] ERROR ActionsMethods - Error : 
+java.lang.NullPointerException
+	at com.automation.genrics.ActionsMethods.browse(ActionsMethods.java:63)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:109)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 14:04:07,295 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 14:06:57,647 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 14:06:58,734 [main] INFO ActionsMethods - browser name : headless
+2019-01-08 14:07:03,549 [main] ERROR Driver - Error : org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\kiran.kumar\Desktop\cavisson\Build Automation\NetAutomator\NetStorm/../framework/src/com/automation/Driver/chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.66 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'DESKTOP-IL6B35H', ip: '172.24.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-01-08 14:07:03,549 [main] INFO ActionsMethods - driver : null
+2019-01-08 14:07:03,564 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 14:07:03,564 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 14:07:03,580 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 14:07:03,580 [main] ERROR ActionsMethods - Error in capture screenshot
+2019-01-08 14:07:03,580 [main] ERROR ActionsMethods - Error : 
+java.lang.NullPointerException
+	at com.automation.genrics.ActionsMethods.browse(ActionsMethods.java:63)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:109)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 14:07:04,112 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 14:10:04,620 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 14:10:05,598 [main] INFO ActionsMethods - browser name : headless
+2019-01-08 14:10:10,104 [main] ERROR Driver - Error : org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\kiran.kumar\Desktop\cavisson\Build Automation\NetAutomator\NetStorm/../framework/src/com/automation/Driver/chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 901 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'DESKTOP-IL6B35H', ip: '172.24.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-01-08 14:10:10,104 [main] INFO ActionsMethods - driver : null
+2019-01-08 14:10:10,120 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 14:10:10,127 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 14:10:10,127 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 14:10:10,127 [main] ERROR ActionsMethods - Error in capture screenshot
+2019-01-08 14:10:10,127 [main] ERROR ActionsMethods - Error : 
+java.lang.NullPointerException
+	at com.automation.genrics.ActionsMethods.browse(ActionsMethods.java:63)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:109)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 14:10:11,291 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 14:11:11,776 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 14:11:12,713 [main] INFO ActionsMethods - browser name : headless
+2019-01-08 14:11:16,518 [main] ERROR Driver - Error : org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: was killed
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\kiran.kumar\Desktop\cavisson\Build Automation\NetAutomator\NetStorm/../framework/src/com/automation/Driver/chromedriver.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.60 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:01:03'
+System info: host: 'DESKTOP-IL6B35H', ip: '172.24.1.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+2019-01-08 14:11:16,518 [main] INFO ActionsMethods - driver : null
+2019-01-08 14:11:16,534 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 14:11:16,534 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 14:11:16,534 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 14:11:16,549 [main] ERROR ActionsMethods - Error in capture screenshot
+2019-01-08 14:11:16,549 [main] ERROR ActionsMethods - Error : 
+java.lang.NullPointerException
+	at com.automation.genrics.ActionsMethods.browse(ActionsMethods.java:63)
+	at com.automation.TestCaseRunner.TestCaseDataReader.testCaseDataRead(TestCaseDataReader.java:109)
+	at com.automation.TestCaseRunner.TestCaseDriveClass.testcaseRunner(TestCaseDriveClass.java:32)
+	at com.automation.Utilities.SuiteDriveClass.suiteRunner(SuiteDriveClass.java:30)
+	at com.automation.TestSuiteRunner.SuiteRunner.suiteRunner(SuiteRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.TestNG.privateMain(TestNG.java:1385)
+	at org.testng.TestNG.main(TestNG.java:1354)
+2019-01-08 14:11:17,019 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
+2019-01-08 14:15:57,177 [main] INFO TestCaseDataReader - Going to read data from LoginTestCase - testcaseStep.xlsx fle
+2019-01-08 14:15:58,111 [main] INFO ActionsMethods - browser name : headless
+2019-01-08 14:16:03,595 [main] INFO Driver - headless driver initiated
+2019-01-08 14:16:03,595 [main] INFO ActionsMethods - driver : ChromeDriver: chrome on XP (e240754f5533c27f33d8124d0d53723a)
+2019-01-08 14:16:03,595 [main] INFO TestCaseDataReader - Size fo row : 1
+2019-01-08 14:16:03,611 [main] INFO TestCaseDataReader - Action need to perform : browse
+2019-01-08 14:16:03,611 [main] INFO ActionsMethods - https://www.google.com going to open
+2019-01-08 14:16:07,666 [main] INFO ActionsMethods - Screen Capture reports\08_01_2019_02_15\images\LoginTestCase/Demo_001.png
+2019-01-08 14:16:08,061 [main] INFO TestCaseDriveClass - LoginTestCase executed sucessfully
+
